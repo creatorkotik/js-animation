@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+.header {
+  background-color: brown;
+  height: 15vh;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  color: white;
+  font-size: 30px;
+}
+
+.footer {
+  background-color: orange;
+  height: 15vh;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 15vw;
+  background-color: green;
+}
+
+.button {
+  align-self: center;
+  font-size: 30px;
+  background-color: aqua;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
